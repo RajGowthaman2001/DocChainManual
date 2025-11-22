@@ -29,7 +29,8 @@
                 "pages": [
                   "Analytics/Document",
                   "Analytics/SingleDocument",
-                  "Analytics/Email"
+                  "Analytics/Email",
+                  "Analytics/ComposeEmail"
                 ]
               },
               {
