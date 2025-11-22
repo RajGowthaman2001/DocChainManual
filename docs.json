@@ -1,11 +1,14 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "almond",
   "name": "DocChainManual",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF8000",
+    "light": "#FF8000",
+    "dark": "#FF8000"
+  },
+  "background": {
+    "decoration": "windows"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -15,34 +18,44 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "pages": ["index", "quickstart"]
           },
           {
-            "group": "Customization",
+            "group": "Sections",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              {
+                "group": "Analytics",
+                "icon": "chart-mixed",
+                "pages": [
+                  "Analytics/Document",
+                  "Analytics/SingleDocument",
+                  "Analytics/Email"
+                ]
+              },
+              {
+                "group": "Documents",
+                "icon": "list",
+                "pages": [
+                  "Documents/Single",
+                  "Documents/Bulk",
+                  "Documents/Pending"
+                ]
+              },
+              {
+                "group": "Publish",
+                "icon": "upload",
+                "pages": ["Publish/Single"]
+              },
+              {
+                "group": "Template",
+                "icon": "edit",
+                "pages": ["Template/Single"]
+              },
+              {
+                "group": "Settings",
+                "icon": "gear",
+                "pages": ["Settings/Single"]
+              }
             ]
           }
         ]
@@ -52,9 +65,7 @@
         "groups": [
           {
             "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
+            "pages": ["api-reference/introduction"]
           },
           {
             "group": "Endpoint examples",
@@ -67,37 +78,23 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:gowtham@print2block.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "DocChain Site",
+      "href": "https://test.app.print2block.in/#/"
     }
   },
   "contextual": {
@@ -114,9 +111,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/print2block/status/1893393684478972398",
+      "github": "https://github.com/RajGowthaman2001",
+      "linkedin": "https://www.linkedin.com/company/docchain/"
     }
   }
 }
